@@ -33,6 +33,7 @@ namespace _05les01
             catch
             {
                 Console.WriteLine("Возникло исключение!");
+                Console.WriteLine("И никто не знает, как с этим бороться...");
             }
 
             Console.ReadKey();
