@@ -21,6 +21,7 @@ namespace _05les01
                     Console.Write("Введите символ:");
                     a = char.Parse(Console.ReadLine());
                     Console.WriteLine($"Введен символ {a}, его код {(int)a}, его категория {char.GetUnicodeCategory(a)}");
+
                     if (char.IsLetter(a)) Console.WriteLine("Буква");
                     if (char.IsUpper(a)) Console.WriteLine("Верхний регистр");
                     if (char.IsLower(a)) Console.WriteLine("Нижний регистр");
