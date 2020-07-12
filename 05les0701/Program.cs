@@ -25,6 +25,8 @@ namespace _05les0701
                 }
                 Console.WriteLine(k);
             }
+
+            Console.ReadKey();
         }
     }
 }
